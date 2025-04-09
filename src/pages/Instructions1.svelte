@@ -3,10 +3,9 @@
   // This is the Instructions page. It loops over the instructions array as a user reads and when click to the last page it notifies the main App.svelte component by dispatching a 'finished' event. When the last page of the instructions are reached the forward button turns into a "Take Quiz" button, but currently there is no quiz and it goes straight to the experiment
   import { createEventDispatcher } from 'svelte';
   export let ratingType;
-  export let numOptions;
 
   // Add/remove items here to create more instructions pages
-  const ratingInstruct = 'In this task, you will watch a short video, provide ratings related to that video continuously as you watch, and answer a series of follow-up questions. <br><br> Specifically, you will rate how <strong>' + ratingType + '</strong> a video makes you feel by using your keyboard to control a rating box (which is demoed on the next page) throughout the video. Make sure to rate based on the intensity of your subjective feeling and update your rating consistently throughout the video. </p>'
+  const ratingInstruct = 'In this task, you will watch a short video, provide ratings related to that video continuously as you watch, and answer a series of follow-up questions. <br><br> Specifically, you will rate when you feel a significant <strong>' + ratingType + '</strong> shift in the movie has occurred by using your keyboard to control a rating box (which is demoed on the next page) throughout the video. Make sure to indicate when you feel a significant shift in the movie has occurred by simply pressing the space bar and please update your rating consistently throughout the video. </p>'
   
   const instructions = [
     ratingInstruct

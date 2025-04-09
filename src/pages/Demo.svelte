@@ -84,12 +84,12 @@
 	</div>
 	<div class="key-box">
 		<div class="keys">
+			<p><strong>Space bar:</strong> indicate when shift has occurred</p>
 			<p><strong>Up arrow key:</strong> move rating bar up</p>
 			<p><strong>Down arrow key:</strong> move rating bar down</p>
-			<p>Hold either arrow key to accelerate in that direction. Release key to reset acceleration</p>
-			<p>You are placing your rating along the scale anchors of "not at all" to "extremely". The dotted line in the middle is halfway between the two extremes
-				and is where ratings will begin. Ratings along this line correspond to "moderately". </p>
-		    <p>Thus, you are rating along the continuum of "not at all" - "moderately" - "extremely". </p>
+			<p>Press the space bar to indicate when you feel a significant {ratingType} shift in the movie has occurred.</p>
+			<p>To indicate that you are paying attention, please randomly press up and down on the rating bar during parts of the movie when nothing is changing.</p>
+		    <p><strong>If you do not complete this, it will be assumed you are not paying attention and you will not recieve compensation. </strong></p>
 
 		</div>
 		<br>
@@ -97,4 +97,3 @@
 		<button class="next" on:click={handleEnd}>Next</button>
 	</div>
 </div>
-
