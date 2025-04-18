@@ -112,7 +112,7 @@
 			bind:paused={paused}
 			ratingType={ratingType}>
 		</RatingBox>
-		<h2 style="text-align:center">Please indicate when you feel a significant <strong>{ratingType}</strong> shift in the movie has occurred</h2>
+		<h2 style="text-align:center">Please indicate when you feel a <strong>{ratingType}</strong> shift in the movie has occurred</h2>
 	</div>
 </main>
 
